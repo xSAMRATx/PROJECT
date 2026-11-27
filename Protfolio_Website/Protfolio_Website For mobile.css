@@ -536,3 +536,11 @@ padding: 10px 60px;
 
 /* Footer end here */
 
+
+/* Contact icon colors */
+.icon-linkedin{ color: #0a66c2; }
+.icon-github{ color: #181717; }
+.icon-globe{ color: #2a9d8f; }
+.icon-code{ color: #6d28d9; }
+.icon-youtube{ color: #c4302b; }
+.icon-google{ color: #ea4335; }
