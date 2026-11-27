@@ -169,6 +169,32 @@ from,to{
     padding-top: 10px;
    
 }
+a.project_1{
+    text-decoration: none;
+}
+.project_1:focus-visible{
+    outline: 3px solid #fff700;
+    outline-offset: 4px;
+}
+.top_title .role-line{
+    font-size: 2.8rem;
+    white-space: normal;
+    border-right: 0;
+    max-width: 560px;
+    margin: 0;
+    animation: role-fade 1.2s ease-in both;
+}
+@keyframes role-fade{
+    from{ opacity: 0; transform: translateY(10px); }
+    to{ opacity: 1; transform: translateY(0); }
+}
+.roles{
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #cfe9f5;
+    margin-top: 10px;
+    line-height: 1.6;
+}
 .project_1{
     display: flex;
     flex-direction: column;
@@ -319,35 +345,37 @@ footer{
 
 }
 
+@media(max-width:480px){
+    .top_title{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .top_title h1{
+        font-size: 3rem;
+    }
+    .top_title h2{
+        font-size: 2.7rem;
+    }
+    .roles{
+        font-size: 1.6rem;
+    }
+    .top_title .role-line{
+        font-size: 2.2rem;
+        margin: 0 auto;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width:480px){
+    .nav-var{
+        padding: 5px 15px;
+    }
+    .nav-var h1{
+        font-size: 2.2rem;
+    }
+    .icon ul{
+        gap: 12px;
+    }
+    .icon a{
+        font-size: 1.6rem;
+    }
+}
