@@ -1,5 +1,7 @@
 # PROJECT — Front-end design collection
 
+**Live demo:** https://xsamratx.github.io/PROJECT/
+
 A collection of static websites and page clones I built while learning front-end development.
 Each folder is a separate project made with **HTML and CSS** (a few pages also use a little JavaScript). No build tools or frameworks are needed.
 
@@ -25,6 +27,8 @@ Each folder is a separate project made with **HTML and CSS** (a few pages also u
 | `Simple_page` | Simple single page layout | `Project.html` |
 
 ## How to view
+
+Open the **[live demo](https://xsamratx.github.io/PROJECT/)** and click any card, or run it locally:
 
 1. Clone the repo:
    ```bash
