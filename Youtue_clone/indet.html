@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Clone</title>
+    <title>YouTube Clone | Aziz Samrat</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -61,11 +61,11 @@
         <div class="first-header">
 
             <div class="youtue-logo">
-                <img src="Picture/youtube-logo.png">
+                <a href="indet.html"><img src="Picture/youtube-logo.png" alt="YouTube"></a>
             </div>
             <div class="srch">
-                <input type="text" id="text" name="text">
-                <button class="srch-vtn"><i class="fa-solid nice fa-magnifying-glass"></i></button>
+                <input type="search" id="search" name="search" placeholder="Search my projects" aria-label="Search my projects">
+                <button class="srch-vtn" aria-label="Search"><i class="fa-solid nice fa-magnifying-glass"></i></button>
                 <div class="mic">
                     <i class="fa-solid fa-microphone"></i>
                 </div>
@@ -84,7 +84,7 @@
                     <i class="fa-regular fa-bell"></i>
                 </div>
                 <div class="circle-img">
-                    <img src="Picture/avatar.png" >
+                    <a href="https://github.com/xSAMRATx" target="_blank" rel="noopener"><img src="Picture/aziz-avatar.jpg" alt="Aziz Samrat"></a>
                 </div>
             </div>
         
@@ -101,15 +101,14 @@
 
            
             
-            <div class="header-btn">
-                <button class="btn1">All</button>
-                <button class="btn">Mixes</button>
-                <button class="btn">Crypto<button>
-
-                <button class="btn">Html</button>
-                <button class="btn">css</button>
-                <button class="btn">javascript</button>
-            
+            <div class="header-btn" id="chips">
+                <button class="btn1" data-filter="all">All</button>
+                <button class="btn" data-filter="laravel">Laravel</button>
+                <button class="btn" data-filter="vue">Vue</button>
+                <button class="btn" data-filter="react">React</button>
+                <button class="btn" data-filter="html">HTML</button>
+                <button class="btn" data-filter="css">CSS</button>
+                <button class="btn" data-filter="javascript">JavaScript</button>
             </div> 
             
             
@@ -124,503 +123,310 @@
 
 </header>
 <main>
-<div class="main">
-    
-<div class="main-line">
-<div class="youtue-img">
-    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-    <div class="you-des">
-        <img class="img2" src="Picture/avatar.png">
-
-      <div class="icon-space">
-        <div class="des">
-            <h3>Html Css Full Course</h3>
-        <h4>Do some coding</h4>
-        <h4>10cr views 1day ago</h4>
-        </div>
-        <div class="ic">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
-     
-    </div>
-</div>
-
-<div class="youtue-img">
-    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-    <div class="you-des">
-        <img class="img2" src="Picture/avatar.png">
-
-      <div class="icon-space">
-        <div class="des">
-            <h3>Html Css Full Course</h3>
-        <h4>Do some coding</h4>
-        <h4>10cr views 1day ago</h4>
-        </div>
-        <div class="ic">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
-     
-    </div>
-</div>
-
-<div class="youtue-img">
-    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-    <div class="you-des">
-        <img class="img2" src="Picture/avatar.png">
-
-      <div class="icon-space">
-        <div class="des">
-            <h3>Html Css Full Course</h3>
-        <h4>Do some coding</h4>
-        <h4>10cr views 1day ago</h4>
-        </div>
-        <div class="ic">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
-     
-    </div>
-</div>
-
-<div class="youtue-img">
-    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-    <div class="you-des">
-        <img class="img2" src="Picture/avatar.png">
-
-      <div class="icon-space">
-        <div class="des">
-            <h3>Html Css Full Course</h3>
-        <h4>Do some coding</h4>
-        <h4>10cr views 1day ago</h4>
-        </div>
-        <div class="ic">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
-     
-    </div>
-</div>
-
-<div class="youtue-img">
-    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-    <div class="you-des">
-        <img class="img2" src="Picture/avatar.png">
-
-      <div class="icon-space">
-        <div class="des">
-            <h3>Html Css Full Course</h3>
-        <h4>Do some coding</h4>
-        <h4>10cr views 1day ago</h4>
-        </div>
-        <div class="ic">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-        </div>
-      </div>
-     
-    </div>
-</div>
-
-</div>
-
-<div class="main-line">
-    <div class="youtue-img">
-        <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-        <div class="you-des">
-            <img class="img2" src="Picture/avatar.png">
-    
-          <div class="icon-space">
-            <div class="des">
-                <h3>Html Css Full Course</h3>
-            <h4>Do some coding</h4>
-            <h4>10cr views 1day ago</h4>
+    <h2 class="sr-only">Projects by Aziz Samrat</h2>
+    <p class="empty" id="empty" hidden>No projects match your search.</p>
+    <div class="main" id="video-grid">
+        <a class="video-card" href="../Amazon_clone/Amazon_website.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/amazon.jpg" alt="Amazon Clone: shopping home page preview" loading="lazy">
+                <span class="badge">Live demo</span>
             </div>
-            <div class="ic">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-          </div>
-         
-        </div>
-    </div>
-    
-    <div class="youtue-img">
-        <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-        <div class="you-des">
-            <img class="img2" src="Picture/avatar.png">
-    
-          <div class="icon-space">
-            <div class="des">
-                <h3>Html Css Full Course</h3>
-            <h4>Do some coding</h4>
-            <h4>10cr views 1day ago</h4>
-            </div>
-            <div class="ic">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-          </div>
-         
-        </div>
-    </div>
-    
-    <div class="youtue-img">
-        <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-        <div class="you-des">
-            <img class="img2" src="Picture/avatar.png">
-    
-          <div class="icon-space">
-            <div class="des">
-                <h3>Html Css Full Course</h3>
-            <h4>Do some coding</h4>
-            <h4>10cr views 1day ago</h4>
-            </div>
-            <div class="ic">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-          </div>
-         
-        </div>
-    </div>
-    
-    <div class="youtue-img">
-        <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-        <div class="you-des">
-            <img class="img2" src="Picture/avatar.png">
-    
-          <div class="icon-space">
-            <div class="des">
-                <h3>Html Css Full Course</h3>
-            <h4>Do some coding</h4>
-            <h4>10cr views 1day ago</h4>
-            </div>
-            <div class="ic">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-          </div>
-         
-        </div>
-    </div>
-    
-    <div class="youtue-img">
-        <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-        <div class="you-des">
-            <img class="img2" src="Picture/avatar.png">
-    
-          <div class="icon-space">
-            <div class="des">
-                <h3>Html Css Full Course</h3>
-            <h4>Do some coding</h4>
-            <h4>10cr views 1day ago</h4>
-            </div>
-            <div class="ic">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>
-          </div>
-         
-        </div>
-    </div>
-    
-    </div>
-    
-    <div class="main-line">
-        <div class="youtue-img">
-            <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
             <div class="you-des">
-                <img class="img2" src="Picture/avatar.png">
-        
-              <div class="icon-space">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
                 <div class="des">
-                    <h3>Html Css Full Course</h3>
-                <h4>Do some coding</h4>
-                <h4>10cr views 1day ago</h4>
+                    <h3>Amazon Clone: shopping home page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                <div class="ic">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-              </div>
-             
             </div>
-        </div>
-        
-        <div class="youtue-img">
-            <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
+        </a>
+        <a class="video-card" href="../Google_Home_Page/Google_Home_Page.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/google.jpg" alt="Google Home Page Clone preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
             <div class="you-des">
-                <img class="img2" src="Picture/avatar.png">
-        
-              <div class="icon-space">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
                 <div class="des">
-                    <h3>Html Css Full Course</h3>
-                <h4>Do some coding</h4>
-                <h4>10cr views 1day ago</h4>
+                    <h3>Google Home Page Clone</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                <div class="ic">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-              </div>
-             
             </div>
-        </div>
-        
-        <div class="youtue-img">
-            <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
+        </a>
+        <a class="video-card" href="indet.html" data-tags="html css javascript">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/youtube.jpg" alt="YouTube Clone (this page) preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
             <div class="you-des">
-                <img class="img2" src="Picture/avatar.png">
-        
-              <div class="icon-space">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
                 <div class="des">
-                    <h3>Html Css Full Course</h3>
-                <h4>Do some coding</h4>
-                <h4>10cr views 1day ago</h4>
+                    <h3>YouTube Clone (this page)</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS · JavaScript</h4>
                 </div>
-                <div class="ic">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-              </div>
-             
             </div>
-        </div>
-        
-        <div class="youtue-img">
-            <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
+        </a>
+        <a class="video-card" href="../Parallax_website/Project3_parallax_website.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/parallax.jpg" alt="Parallax Scrolling Website preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
             <div class="you-des">
-                <img class="img2" src="Picture/avatar.png">
-        
-              <div class="icon-space">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
                 <div class="des">
-                    <h3>Html Css Full Course</h3>
-                <h4>Do some coding</h4>
-                <h4>10cr views 1day ago</h4>
+                    <h3>Parallax Scrolling Website</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                <div class="ic">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-              </div>
-             
             </div>
-        </div>
-        
-        <div class="youtue-img">
-            <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
+        </a>
+        <a class="video-card" href="../Restaurant_Website/Restaurent_website.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/spicyking.jpg" alt="Spicy King Restaurant Website preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
             <div class="you-des">
-                <img class="img2" src="Picture/avatar.png">
-        
-              <div class="icon-space">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
                 <div class="des">
-                    <h3>Html Css Full Course</h3>
-                <h4>Do some coding</h4>
-                <h4>10cr views 1day ago</h4>
-                </div>
-                <div class="ic">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-              </div>
-             
-            </div>
-        </div>
-        
-        </div>
-        
-        <div class="main-line">
-            <div class="youtue-img">
-                <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                <div class="you-des">
-                    <img class="img2" src="Picture/avatar.png">
-            
-                  <div class="icon-space">
-                    <div class="des">
-                        <h3>Html Css Full Course</h3>
-                    <h4>Do some coding</h4>
-                    <h4>10cr views 1day ago</h4>
-                    </div>
-                    <div class="ic">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                  </div>
-                 
+                    <h3>Spicy King Restaurant Website</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
             </div>
-            
-            <div class="youtue-img">
-                <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                <div class="you-des">
-                    <img class="img2" src="Picture/avatar.png">
-            
-                  <div class="icon-space">
-                    <div class="des">
-                        <h3>Html Css Full Course</h3>
-                    <h4>Do some coding</h4>
-                    <h4>10cr views 1day ago</h4>
-                    </div>
-                    <div class="ic">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                  </div>
-                 
+        </a>
+        <a class="video-card" href="../Restaurant_wesite/index.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/restaurant.jpg" alt="Restaurant Landing Page with Menu preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Restaurant Landing Page with Menu</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
             </div>
-            
-            <div class="youtue-img">
-                <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                <div class="you-des">
-                    <img class="img2" src="Picture/avatar.png">
-            
-                  <div class="icon-space">
-                    <div class="des">
-                        <h3>Html Css Full Course</h3>
-                    <h4>Do some coding</h4>
-                    <h4>10cr views 1day ago</h4>
-                    </div>
-                    <div class="ic">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                  </div>
-                 
+        </a>
+        <a class="video-card" href="../University_website/University_website.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/university.jpg" alt="University Website preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>University Website</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
             </div>
-            
-            <div class="youtue-img">
-                <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                <div class="you-des">
-                    <img class="img2" src="Picture/avatar.png">
-            
-                  <div class="icon-space">
-                    <div class="des">
-                        <h3>Html Css Full Course</h3>
-                    <h4>Do some coding</h4>
-                    <h4>10cr views 1day ago</h4>
-                    </div>
-                    <div class="ic">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                  </div>
-                 
+        </a>
+        <a class="video-card" href="../Music_website/index.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/music.jpg" alt="myTunes Music Landing Page preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>myTunes Music Landing Page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
             </div>
-            
-            <div class="youtue-img">
-                <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                <div class="you-des">
-                    <img class="img2" src="Picture/avatar.png">
-            
-                  <div class="icon-space">
-                    <div class="des">
-                        <h3>Html Css Full Course</h3>
-                    <h4>Do some coding</h4>
-                    <h4>10cr views 1day ago</h4>
-                    </div>
-                    <div class="ic">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                  </div>
-                 
+        </a>
+        <a class="video-card" href="../blog_website/Home.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/blog.jpg" alt="GreatZone Blog: home + post pages preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>GreatZone Blog: home + post pages</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
             </div>
-            
+        </a>
+        <a class="video-card" href="../Documentation_project/index.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/docs.jpg" alt="JavaScript Documentation Page preview" loading="lazy">
+                <span class="badge">Live demo</span>
             </div>
-            
-            <div class="main-line">
-                <div class="youtue-img">
-                    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                    <div class="you-des">
-                        <img class="img2" src="Picture/avatar.png">
-                
-                      <div class="icon-space">
-                        <div class="des">
-                            <h3>Html Css Full Course</h3>
-                        <h4>Do some coding</h4>
-                        <h4>10cr views 1day ago</h4>
-                        </div>
-                        <div class="ic">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                      </div>
-                     
-                    </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>JavaScript Documentation Page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                
-                <div class="youtue-img">
-                    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                    <div class="you-des">
-                        <img class="img2" src="Picture/avatar.png">
-                
-                      <div class="icon-space">
-                        <div class="des">
-                            <h3>Html Css Full Course</h3>
-                        <h4>Do some coding</h4>
-                        <h4>10cr views 1day ago</h4>
-                        </div>
-                        <div class="ic">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                      </div>
-                     
-                    </div>
+            </div>
+        </a>
+        <a class="video-card" href="../Job-Application_From/Project-2_Job-Application_From.html" data-tags="html css javascript">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/job.jpg" alt="Job Application Form with Validation preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Job Application Form with Validation</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS · JavaScript</h4>
                 </div>
-                
-                <div class="youtue-img">
-                    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                    <div class="you-des">
-                        <img class="img2" src="Picture/avatar.png">
-                
-                      <div class="icon-space">
-                        <div class="des">
-                            <h3>Html Css Full Course</h3>
-                        <h4>Do some coding</h4>
-                        <h4>10cr views 1day ago</h4>
-                        </div>
-                        <div class="ic">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                      </div>
-                     
-                    </div>
+            </div>
+        </a>
+        <a class="video-card" href="../Landing_page/Landing_page.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/landing.jpg" alt="Developer Landing Page preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Developer Landing Page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                
-                <div class="youtue-img">
-                    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                    <div class="you-des">
-                        <img class="img2" src="Picture/avatar.png">
-                
-                      <div class="icon-space">
-                        <div class="des">
-                            <h3>Html Css Full Course</h3>
-                        <h4>Do some coding</h4>
-                        <h4>10cr views 1day ago</h4>
-                        </div>
-                        <div class="ic">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                      </div>
-                     
-                    </div>
+            </div>
+        </a>
+        <a class="video-card" href="../Protfolio_Website/Protfolio_Website.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/portfolio1.jpg" alt="Personal Portfolio Page preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Personal Portfolio Page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                
-                <div class="youtue-img">
-                    <img class="img1" src="Picture/thumbnail.png" alt="YouTube">
-                    <div class="you-des">
-                        <img class="img2" src="Picture/avatar.png">
-                
-                      <div class="icon-space">
-                        <div class="des">
-                            <h3>Html Css Full Course</h3>
-                        <h4>Do some coding</h4>
-                        <h4>10cr views 1day ago</h4>
-                        </div>
-                        <div class="ic">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                      </div>
-                     
-                    </div>
+            </div>
+        </a>
+        <a class="video-card" href="../Protfolio2_Website/Index.html" data-tags="html css javascript">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/portfolio2.jpg" alt="Portfolio Template with Projects preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Portfolio Template with Projects</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS · JavaScript</h4>
                 </div>
-                
+            </div>
+        </a>
+        <a class="video-card" href="../PAGE/Project_1.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/bio.jpg" alt="Simple Biography Page preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Simple Biography Page</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
                 </div>
-                
-                                        
-</div>
-
+            </div>
+        </a>
+        <a class="video-card" href="../Simple_page/Project.html" data-tags="html css">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/simple.jpg" alt="Simple CV Page Layout preview" loading="lazy">
+                <span class="badge">Live demo</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Simple CV Page Layout</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>HTML · CSS</h4>
+                </div>
+            </div>
+        </a>
+        <a class="video-card" href="https://github.com/xSAMRATx/portfolio" target="_blank" rel="noopener" data-tags="laravel react">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/repo-portfolio.jpg" alt="Portfolio Site: Laravel + React + TypeScript preview" loading="lazy">
+                <span class="badge">GitHub</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Portfolio Site: Laravel + React + TypeScript</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>GitHub · Laravel · React</h4>
+                </div>
+            </div>
+        </a>
+        <a class="video-card" href="https://github.com/xSAMRATx/role-based-authentication" target="_blank" rel="noopener" data-tags="laravel">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/repo-role-based-authentication.jpg" alt="Role-Based Authentication in Laravel (no packages) preview" loading="lazy">
+                <span class="badge">GitHub</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Role-Based Authentication in Laravel (no packages)</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>GitHub · Laravel</h4>
+                </div>
+            </div>
+        </a>
+        <a class="video-card" href="https://github.com/xSAMRATx/LARAVEL_REACT_INERTIA_CRUD" target="_blank" rel="noopener" data-tags="laravel react">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/repo-laravel_react_inertia_crud.jpg" alt="Laravel + React CRUD with Inertia.js preview" loading="lazy">
+                <span class="badge">GitHub</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Laravel + React CRUD with Inertia.js</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>GitHub · Laravel · React</h4>
+                </div>
+            </div>
+        </a>
+        <a class="video-card" href="https://github.com/xSAMRATx/User_Interface_Laravel_Inertia_Vue" target="_blank" rel="noopener" data-tags="laravel vue">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/repo-user_interface_laravel_inertia_vue.jpg" alt="Laravel + Vue Admin UI with Inertia.js preview" loading="lazy">
+                <span class="badge">GitHub</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>Laravel + Vue Admin UI with Inertia.js</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>GitHub · Laravel · Vue</h4>
+                </div>
+            </div>
+        </a>
+        <a class="video-card" href="https://github.com/xSAMRATx/erp_sales_module" target="_blank" rel="noopener" data-tags="laravel">
+            <div class="thumb-wrap">
+                <img class="img1" src="thumbs/repo-erp_sales_module.jpg" alt="ERP Sales Module in Laravel preview" loading="lazy">
+                <span class="badge">GitHub</span>
+            </div>
+            <div class="you-des">
+                <img class="img2" src="Picture/aziz-avatar.jpg" alt="Aziz Samrat">
+                <div class="des">
+                    <h3>ERP Sales Module in Laravel</h3>
+                    <h4>Aziz Samrat</h4>
+                    <h4>GitHub · Laravel</h4>
+                </div>
+            </div>
+        </a>
+    </div>
 </main>
 
-      <!--  B   b   1   2   !    @    <br>  bindParam -->
+<footer class="yt-footer">
+    <p>Made by Aziz Samrat &middot; <a href="https://github.com/xSAMRATx" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://www.linkedin.com/in/md-abdul-aziz-samrat-797738206/" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="../index.html">All live demos</a></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
