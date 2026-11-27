@@ -270,3 +270,23 @@ font-weight: 700;
 
 }
 
+/* mobile fixes (PR: polish pass) */
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+        gap: 6px;
+    }
+    .icon ul{
+        gap: 15px;
+    }
+    .home_logo{
+        width: auto;
+        max-width: 100%;
+    }
+    .home_logo img,
+    main img,
+    .img2{
+        max-width: 100%;
+        height: auto;
+    }
+}

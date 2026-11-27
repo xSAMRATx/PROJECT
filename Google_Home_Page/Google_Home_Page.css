@@ -185,3 +185,14 @@ color: #5f6368;
 
 
 /* footer end */
+
+/* mobile fixes (PR: polish pass) */
+@media (max-width: 600px){
+    ul{
+        flex-wrap: wrap;
+    }
+    .footer .left-side{
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+}

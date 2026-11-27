@@ -136,9 +136,24 @@ main{
     padding-left: 10px;
 }
 
-
-
-
-
-
-
+/* mobile fixes (PR: polish pass) */
+@media (max-width: 700px){
+    body{
+        flex-direction: column;
+    }
+    header{
+        height: auto;
+    }
+    nav{
+        position: static;
+    }
+    main{
+        margin-left: 0;
+        padding: 0 16px;
+    }
+    main pre,
+    main code{
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+}

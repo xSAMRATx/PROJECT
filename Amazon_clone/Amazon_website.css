@@ -416,3 +416,31 @@ h3{
 }
 
 /* footer end here */
+
+/* mobile fixes (PR: polish pass) */
+@media (max-width: 600px){
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 6px 4px;
+    }
+    .order-div{
+        display: none;
+    }
+    .navbar2{
+        height: auto;
+        flex-wrap: wrap;
+        padding: 4px 0;
+    }
+    .hero-text{
+        height: auto;
+        padding: 4px;
+        left: 2.5%;
+        font-size: .85rem;
+    }
+}
