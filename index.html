@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Front-end Design Collection · Md. Abdul Aziz Samrat</title>
+<meta name="description" content="16 websites and page clones built with HTML, CSS and a little JavaScript by Md. Abdul Aziz Samrat.">
+<style>
+  :root {
+    --bg: #f6f7fb; --surface: #ffffff; --text: #151a2d; --muted: #5b6275;
+    --border: #e3e6ef; --accent: #4f46e5; --on-accent: #ffffff; --accent-soft: #eef0ff; --shadow: 0 6px 24px rgba(20, 24, 45, .08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1020; --surface: #161a2e; --text: #eef0f8; --muted: #a2a8bd;
+      --border: #262b45; --accent: #8b85ff; --on-accent: #0d1020; --accent-soft: #1f2245; --shadow: 0 6px 24px rgba(0, 0, 0, .35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text); line-height: 1.55;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 56px 0 28px; }
+  .eyebrow {
+    display: inline-block; font-size: .8rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--accent); background: var(--accent-soft); padding: 4px 10px; border-radius: 999px;
+  }
+  h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.15; margin: 14px 0 10px; }
+  .lead { color: var(--muted); max-width: 640px; margin: 0 0 20px; font-size: 1.05rem; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--surface); text-decoration: none; font-weight: 600; font-size: .95rem;
+  }
+  .btn:hover, .btn:focus-visible { border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .btn.primary:hover, .btn.primary:focus-visible { color: var(--on-accent); opacity: .9; }
+  .grid {
+    display: grid; gap: 20px; padding: 12px 0 56px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .card {
+    display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; overflow: hidden; text-decoration: none; box-shadow: var(--shadow);
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .card:hover, .card:focus-visible { transform: translateY(-3px); border-color: var(--accent); outline: none; }
+  .card img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; background: var(--border); }
+  .card-body { padding: 14px 16px 16px; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 4px; }
+  .card p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .card .more { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .card .more a { font-size: .85rem; color: var(--accent); }
+  footer { border-top: 1px solid var(--border); padding: 22px 0 32px; color: var(--muted); font-size: .9rem; }
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } .card:hover { transform: none; } }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <span class="eyebrow">HTML · CSS · JavaScript</span>
+  <h1>Front-end Design Collection</h1>
+  <p class="lead">16 websites and page clones I built while learning front-end development. Click any card to open the live page.</p>
+  <div class="links">
+    <a class="btn primary" href="https://github.com/xSAMRATx/PROJECT">View source on GitHub</a>
+    <a class="btn" href="https://github.com/xSAMRATx">GitHub profile</a>
+    <a class="btn" href="https://www.linkedin.com/in/md-abdul-aziz-samrat-797738206/">LinkedIn</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid">
+    <a class="card" href="Amazon_clone/Amazon_website.html"><img src="assets/thumbs/amazon.jpg" alt="Amazon clone preview" loading="lazy"><div class="card-body"><h2>Amazon clone</h2><p>Shopping home page with product category cards.</p></div></a>
+    <a class="card" href="Google_Home_Page/Google_Home_Page.html"><img src="assets/thumbs/google.jpg" alt="Google home page clone preview" loading="lazy"><div class="card-body"><h2>Google home page</h2><p>Google search home page clone.</p></div></a>
+    <a class="card" href="Youtue_clone/indet.html"><img src="assets/thumbs/youtube.jpg" alt="YouTube clone preview" loading="lazy"><div class="card-body"><h2>YouTube clone</h2><p>YouTube home page layout with video grid and sidebar.</p></div></a>
+    <a class="card" href="Parallax_website/Project3_parallax_website.html"><img src="assets/thumbs/parallax.jpg" alt="Parallax website preview" loading="lazy"><div class="card-body"><h2>Parallax website</h2><p>Parallax scrolling with full-screen nature sections.</p></div></a>
+    <a class="card" href="Restaurant_Website/Restaurent_website.html"><img src="assets/thumbs/spicyking.jpg" alt="Spicy King restaurant preview" loading="lazy"><div class="card-body"><h2>Spicy King restaurant</h2><p>Restaurant website with menu and about sections.</p></div></a>
+    <a class="card" href="Restaurant_wesite/index.html"><img src="assets/thumbs/restaurant.jpg" alt="Restaurant landing page preview" loading="lazy"><div class="card-body"><h2>Restaurant landing page</h2><p>Food delivery landing page with offers and menu.</p></div></a>
+    <a class="card" href="University_website/University_website.html"><img src="assets/thumbs/university.jpg" alt="University website preview" loading="lazy"><div class="card-body"><h2>University website</h2><p>University site with courses and campuses sections.</p></div></a>
+    <a class="card" href="Music_website/index.html"><img src="assets/thumbs/music.jpg" alt="myTunes music website preview" loading="lazy"><div class="card-body"><h2>myTunes music site</h2><p>Music streaming landing page.</p></div></a>
+    <div class="card"><a href="blog_website/Home.html"><img src="assets/thumbs/blog.jpg" alt="GreatZone blog preview" loading="lazy"></a><div class="card-body"><h2>GreatZone blog</h2><p>Blog with a home page and a post page.</p><div class="more"><a href="blog_website/Home.html">Home page</a><a href="blog_website/Post.html">Post page</a></div></div></div>
+    <a class="card" href="Documentation_project/index.html"><img src="assets/thumbs/docs.jpg" alt="Documentation page preview" loading="lazy"><div class="card-body"><h2>Documentation page</h2><p>Technical docs layout with a side navigation.</p></div></a>
+    <a class="card" href="Job-Application_From/Project-2_Job-Application_From.html"><img src="assets/thumbs/job.jpg" alt="Job application form preview" loading="lazy"><div class="card-body"><h2>Job application form</h2><p>Form layout with inputs, select and file upload.</p></div></a>
+    <a class="card" href="Landing_page/Landing_page.html"><img src="assets/thumbs/landing.jpg" alt="Developer landing page preview" loading="lazy"><div class="card-body"><h2>Developer landing page</h2><p>Personal full-stack developer landing page.</p></div></a>
+    <a class="card" href="Protfolio_Website/Protfolio_Website.html"><img src="assets/thumbs/portfolio1.jpg" alt="Portfolio page preview" loading="lazy"><div class="card-body"><h2>Portfolio page</h2><p>Personal portfolio with about, skills and contact.</p></div></a>
+    <a class="card" href="Protfolio2_Website/Index.html"><img src="assets/thumbs/portfolio2.jpg" alt="Portfolio template preview" loading="lazy"><div class="card-body"><h2>Portfolio template</h2><p>Portfolio with a typing hero and projects section.</p></div></a>
+    <a class="card" href="PAGE/Project_1.html"><img src="assets/thumbs/bio.jpg" alt="Biography page preview" loading="lazy"><div class="card-body"><h2>Biography page</h2><p>Simple biography page.</p></div></a>
+    <a class="card" href="Simple_page/Project.html"><img src="assets/thumbs/simple.jpg" alt="Simple page preview" loading="lazy"><div class="card-body"><h2>Simple page</h2><p>Single page CV-style layout.</p></div></a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Built by <strong>Md. Abdul Aziz Samrat</strong> · <a href="https://github.com/xSAMRATx">GitHub</a> · <a href="https://www.linkedin.com/in/md-abdul-aziz-samrat-797738206/">LinkedIn</a></div>
+</footer>
+</body>
+</html>
