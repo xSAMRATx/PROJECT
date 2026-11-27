@@ -327,3 +327,17 @@ main{
 .img1{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
 }
+
+/* mobile fixes (PR: polish pass) */
+@media (max-width: 640px){
+    .header-btn{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 4px;
+        max-width: 100%;
+    }
+    .header-btn button{
+        flex: 0 0 auto;
+    }
+}

@@ -302,5 +302,34 @@ cursor: pointer;
   font-size: 15px;
 }
 
-
-
+/* mobile fixes (PR: polish pass) */
+.music-img img{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 700px){
+    .header{
+        flex-direction: column;
+        gap: 6px;
+        padding: 8px 16px;
+    }
+    .menu ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu ul li{
+        margin: 0 8px;
+    }
+    .music-img{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .another-last{
+        width: 90%;
+        flex-direction: column;
+    }
+    .card img{
+        width: 100%;
+        max-width: 350px;
+    }
+}
