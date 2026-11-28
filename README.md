@@ -44,4 +44,4 @@ Open the **[live demo](https://xsamratx.github.io/PROJECT/)** and click any card
 
 ## Author
 
-**Md. Abdul Aziz Samrat** — [GitHub](https://github.com/xSAMRATx) · [LinkedIn](https://www.linkedin.com/in/md-abdul-aziz-samrat-797738206/)
+**Md. Abdul Aziz Samrat** — [GitHub](https://github.com/xSAMRATx) · [LinkedIn](https://www.linkedin.com/in/aziz-samrat)
